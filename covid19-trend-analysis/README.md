@@ -1,87 +1,92 @@
-# COVID-19 Global Trends Analysis
+### 🌍 Project Title
 
+**COVID-19 Global Trends Analysis**
 
-### 📁 Project Summary
+### 📊 Overview
 
-This project analyzes COVID-19 global trends using data from **Our World in Data**. It includes **time-series visualizations**, **vaccination progress**, **continent-level comparisons**, and **correlation analysis** (e.g., GDP vs vaccination rate). The analysis is performed using **Python (Pandas, Matplotlib, Seaborn)** and **SQLite for SQL-based exploration**.
+This project analyzes global COVID-19 data from *Our World in Data*, covering:
 
----
-
-### 📌 Objectives
-
-* Analyze confirmed cases, death rates, and vaccinations globally and by country.
-* Visualize monthly and daily trends.
-* Compare regions and continents.
-* Correlate GDP per capita with vaccination coverage.
+* Case and death trends
+* Vaccination rates
+* Country-level comparisons
+* Correlation with GDP
+* Visualization dashboards
 
 ---
 
-### 📂 Files in This Repository
+### 🧰 Tools & Technologies
 
-| File                     | Description                                            |
-| ------------------------ | ------------------------------------------------------ |
-| `cleaned_covid_data.csv` | Cleaned COVID-19 dataset from OWID                     |
-| `gdp_per_capita.csv`     | Sample GDP per capita dataset for correlation analysis |
-| `covid.db`               | SQLite database version of the cleaned dataset         |
-| `covid_analysis.py`      | Python file with full analysis and visualizations      |
-| `data loading.py`        | Python file with data loading and cleaning             |
-| `queries.sql`            | SQL scripts used for data aggregation and insights     |
-| `README.md`              | This file – documentation and project overview         |
+* **Python**: Pandas, Matplotlib, Seaborn
+* **SQLite**: for local database storage
+* **Jupyter Notebook / VS Code**
+* **Git & GitHub**
 
 ---
 
-### 🔧 Tools & Technologies
+### 📁 Dataset
 
-* Python (Pandas, Matplotlib, Seaborn)
-* SQLite & SQL (via `sqlite3`)
-* Jupyter Notebook
-* Visual Studio Code (optional)
-* Our World in Data COVID-19 dataset
-* GDP data (World Bank or manually provided)
+* [Our World in Data: COVID-19](https://ourworldindata.org/covid-cases)
+* GDP data: [World Bank](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
+
+> ⚠️ **Note:** Large files (`cleaned_covid_data.csv`, `covid.db`) 
+---
+
+📈 Key Visualizations
+
+1. **Global Daily New Cases** (Line Chart)
+2. **Total Cases vs Total Deaths** (Scatter, Log Scale)
+3. **Death Rate vs Vaccination Rate**
+4. **Top 10 Countries by Total Cases**
+5. **Vaccinations per 100 People** (Multi-Country Line)
+6. **Cases & Deaths by Continent** (Grouped Bar)
+7. **Vaccination Share by Country** (Pie Chart)
+8. **Correlation Heatmap**: GDP vs Vaccination, Cases, Deaths
 
 ---
 
-### 📈 Key Visualizations
+🛠️ Setup Instructions
 
-* Global daily new cases (line chart)
-* Vaccination rate per 100 people by country
-* Total cases vs total deaths (log scale scatter plot)
-* Monthly new cases (e.g., United Kingdom)
-* Continent-level case & death comparisons (grouped bar chart)
-* Pie chart of top 6 vaccinated countries
-* Correlation heatmap: GDP per capita vs vaccination & death rate
+```bash
+# Install dependencies
+pip install pandas matplotlib seaborn
 
----
-
-### 🚀 How to Run This Project
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/your-username/covid19-analysis.git
-   cd covid19-analysis
-   ```
-
-2. Install dependencies
-
-   ```bash
-   pip install pandas matplotlib seaborn jupyter
-   ```
-
-3. Launch Python
-   
-   covid_analysis
-
-
-
-4. Run SQL in `covid.db` using DB Browser or VS Code + SQLTools
+# Optional: Create SQLite DB
+python covid_analysis.py
+```
 
 ---
 
-### 📚 Data Sources
+🧪 Sample Output
 
-* **COVID-19 Dataset**: [Our World in Data](https://github.com/owid/covid-19-data)
-* **GDP per Capita**: [World Bank Open Data](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)
+![Global Daily New Cases](images/Figure_0.png)
+![Total Cases vs Total Deaths](images/Figure_1.png)
+![Death Rate vs Vaccination Rate](images/Figure_2.png)
+![Top 10 Countries by Total Cases](images/Figure_3.png)
+![Vaccinations per 100 People](images/Figure_4.png)
+![Cases & Deaths by Continent](images/Figure_5.png)
+![Vaccination Share by Country](images/Figure_6.png)
+![Correlation Heatmap](images/Figure_7.png)
 
 ---
+
+📂 Folder Structure
+
+```
+📦 covid-analysis/
+├── cleaned_covid_data.csv   
+├── covid_analysis.py
+├── gdp_per_capita.csv
+├── README.md
+├── images
+│   └── Figure_0.png
+│   └── Figure_1.png
+│   └── Figure_2.png
+│   └── Figure_3.png
+│   └── Figure_4.png
+│   └── Figure_5.png
+│   └── Figure_6.png
+```
+
+
+
 

@@ -3,7 +3,7 @@ import sqlite3
 
 
 # Load Data
-df = pd.read_csv("owid-covid-data.csv")
+df = pd.read_csv("cleaned_covid_data.csv")
 
 # View first few rows
 print("Raw Data Preview:")
