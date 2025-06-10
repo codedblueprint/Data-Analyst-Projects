@@ -20,7 +20,6 @@ This project analyzes COVID-19 global trends using data from **Our World in Data
 
 | File                     | Description                                            |
 | ------------------------ | ------------------------------------------------------ |
-| `owid-covid-data.csv`    | Original COVID-19 dataset from OWID                     |
 | `cleaned_covid_data.csv` | Cleaned COVID-19 dataset from OWID                     |
 | `gdp_per_capita.csv`     | Sample GDP per capita dataset for correlation analysis |
 | `covid.db`               | SQLite database version of the cleaned dataset         |
