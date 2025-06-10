@@ -17,7 +17,7 @@ This Power BI dashboard analyzes retail performance across products, countries, 
 - DAX (for measures like Profit Margin, Avg Discount)
 
  📸 Dashboard Preview
-![Dashboard Screenshot](images/dashboard_preview.png)
+![Dashboard Screenshot](Retail_Sales_Dashboard.pdf)
 
  📂 Files
 - `Retail_Sales_Dashboard.pbix`
