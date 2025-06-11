@@ -29,7 +29,24 @@ This interactive dashboard helps visualize sales performance across regions, cat
 
 ---
 
-## 📈 2. COVID-19 Global Trends Analysis (Python + SQL)
+## 🏠 23. Housing Price Prediction (Python or R)
+
+**📁 Folder:** `housing-price-prediction`  
+**Dataset:** [Kaggle: House Prices - Advanced Regression](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
+### 🔍 Project Summary
+This machine learning model predicts housing sale prices using regression models. It includes Ridge, Lasso, and optionally XGBoost or Random Forest.
+
+### 🧰 Skills & Tools
+- Python (or R) for regression modeling
+- Data preprocessing & dummy encoding
+- Feature importance visualization
+- Model tuning with GridSearchCV
+- Evaluation using RMSE
+
+---
+
+## 📈 3. COVID-19 Global Trends Analysis (Python + SQL)
 
 **📁 Folder:** `covid19-global-trends`  
 **Dataset:** [Our World in Data - COVID-19](https://ourworldindata.org/coronavirus)
@@ -46,22 +63,7 @@ This project explores COVID-19 case trends, vaccination progress, and death rate
 
 ---
 
-## 🏠 3. Housing Price Prediction (Python or R)
 
-**📁 Folder:** `housing-price-prediction`  
-**Dataset:** [Kaggle: House Prices - Advanced Regression](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-
-### 🔍 Project Summary
-This machine learning model predicts housing sale prices using regression models. It includes Ridge, Lasso, and optionally XGBoost or Random Forest.
-
-### 🧰 Skills & Tools
-- Python (or R) for regression modeling
-- Data preprocessing & dummy encoding
-- Feature importance visualization
-- Model tuning with GridSearchCV
-- Evaluation using RMSE
-
----
 
 ## 🧠 Highlights
 
