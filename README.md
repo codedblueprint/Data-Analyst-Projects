@@ -29,7 +29,7 @@ This interactive dashboard helps visualize sales performance across regions, cat
 
 ---
 
-## 🏠 23. Housing Price Prediction (Python or R)
+## 🏠 2. Housing Price Prediction (Python or R)
 
 **📁 Folder:** `housing-price-prediction`  
 **Dataset:** [Kaggle: House Prices - Advanced Regression](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
