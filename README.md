@@ -69,8 +69,8 @@ This project explores COVID-19 case trends, vaccination progress, and death rate
 
 - Real-world datasets with business relevance  
 - Code-first approach with Python, SQL, and R  
-- Visual-first approach using Tableau / Power BI  
-- Each folder includes a standalone `README.md`, Jupyter/R notebook, and data instructions
+- Visual-first approach using Power BI  
+- Each folder includes a standalone `README.md`, Jupyter notebook, and data instructions
 
 ---
 
