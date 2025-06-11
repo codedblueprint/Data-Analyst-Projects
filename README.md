@@ -2,9 +2,9 @@
 
 Welcome to data analyst Projects! This repository shows three diverse and practical projects with:
 
-- Data visualization (Power BI / Tableau)
+- Data visualization (Power BI)
 - Exploratory data analysis (Python, SQL)
-- Predictive modeling (Python & R)
+- Predictive modeling (Python)
 
 Each project includes real-world datasets and is focused on business impact, clarity, and technical depth.
 
@@ -29,7 +29,7 @@ This interactive dashboard helps visualize sales performance across regions, cat
 
 ---
 
-## 🏠 2. Housing Price Prediction (Python or R)
+## 🏠 2. Housing Price Prediction (Python)
 
 **📁 Folder:** `housing-price-prediction`  
 **Dataset:** [Kaggle: House Prices - Advanced Regression](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
@@ -38,7 +38,7 @@ This interactive dashboard helps visualize sales performance across regions, cat
 This machine learning model predicts housing sale prices using regression models. It includes Ridge, Lasso, and optionally XGBoost or Random Forest.
 
 ### 🧰 Skills & Tools
-- Python (or R) for regression modeling
+- Python for regression modeling
 - Data preprocessing & dummy encoding
 - Feature importance visualization
 - Model tuning with GridSearchCV
@@ -64,8 +64,7 @@ This project explores COVID-19 case trends, vaccination progress, and death rate
 ---
 
 
-
-## 🧠 Highlights
+## 🧠 Conclusion
 
 - Real-world datasets with business relevance  
 - Code-first approach with Python, SQL, and R  
