@@ -18,7 +18,7 @@ This project analyzes global COVID-19 data from *Our World in Data*, covering:
 
 * **Python**: Pandas, Matplotlib, Seaborn
 * **SQLite**: for local database storage
-* **Jupyter Notebook / VS Code**
+* **VS Code**
 * **Git & GitHub**
 
 ---
