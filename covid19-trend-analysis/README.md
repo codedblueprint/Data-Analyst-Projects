@@ -60,12 +60,8 @@ python covid_analysis.py
 
 ![Global Daily New Cases](images/Figure_0.png)
 ![Total Cases vs Total Deaths](images/Figure_1.png)
-![Death Rate vs Vaccination Rate](images/Figure_2.png)
 ![Top 10 Countries by Total Cases](images/Figure_3.png)
-![Vaccinations per 100 People](images/Figure_4.png)
 ![Cases & Deaths by Continent](images/Figure_5.png)
-![Vaccination Share by Country](images/Figure_6.png)
-![Correlation Heatmap](images/Figure_7.png)
 
 ---
 
